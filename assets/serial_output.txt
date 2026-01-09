@@ -1,0 +1,174 @@
+--Screen Configuration Information--
+Setting services...
+Success: Services set.
+
+{
+  "source": "Screen",
+  "target": "Display",
+  "action": "Retrieving display information",
+  "status": "Success",
+  "display": {
+    "width": 480,
+    "height": 320
+  }
+
+  "source": "Display",
+  "target": "Registry",
+  "action": "Determining geometry",
+  "status": "Success",
+  "widget": {
+    "name": "Label",
+    "geometry": {
+      "width": 150,
+      "height": 25
+      "boundary": "not configured"
+    }
+  }
+  "source": "Display",
+  "target": "Registry",
+  "action": "Determining geometry",
+  "status": "Success",
+  "widget": {
+    "name": "Graticule",
+    "geometry": {
+      "width": 401,
+      "height": 267,
+      "boundary": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 400,
+        "y2": 266
+      }
+    }
+  }
+}
+
+Success: Widget dimensions registered.
+Creating widgets in lvgl...
+
+{
+  "source": "Pool",
+  "target": "LVGL",
+  "action": "Creating lvgl object and associating a pointer",
+  "status": "Success",
+  "source": "Registry",
+  "target": "LVGL",
+  "action": "Setting widget attributes",
+  "status": "Success",
+  "widget": {
+    "type": "Built-in",
+    "name": "Label",
+    "spacing": "ignored",
+    "position_offset_x": 0,
+    "position_offset_y": 0,
+    "background_color": "0xFFFF",
+    "background_opacity": 255,
+    "border_width": 2,
+    "border_color": "0x0",
+    "border_opacity": 255,
+    "border_side": 15,
+    "outline": "ignored",
+    "widget_width": 150,
+    "widget_height": 25,
+    "text_color": "0x0",
+    "text_opacity": 255,
+    "letter_spacing": 5,
+    "line_spacing": 10,
+    "label_text": "A Label!",
+    "label_recolor": false,
+    "clickable": false,
+    "scrollable": false,
+    "focusable": false
+  }
+}
+
+{
+  "source": "Pool",
+  "target": "LVGL",
+  "action": "Creating lvgl object and associating a pointer",
+  "status": "Success",
+  "source": "Registry",
+  "target": "LVGL",
+  "action": "Setting widget attributes",
+  "status": "Success",
+  "widget": {
+    "type": "Custom",
+    "name": "Graticule",
+    "spacing": "ignored",
+    "position_offset_x": 0,
+    "position_offset_y": 0,
+    "background_appearance": "ignored",
+    "border": "ignored",
+    "outline": "ignored",
+    "widget_width": 401,
+    "widget_height": 267,
+    "typography": "ignored",
+    "label_text": "ignored",
+    "clickable": false,
+    "scrollable": false,
+    "focusable": false
+  }
+}
+
+Success: Screen setup complete!
+
+--Builder Configuration Information--
+Setting services...
+Success: Services set.
+Building widgets...
+Success: Added widgets to the pool!
+
+-----------System Status------------
+Configured: Setup complete - display initialized!
+
+------LVGL Screen Information------
+Screen Coordinates: (0,0) -> (479,319)
+Display Dimensions (W x H): 480 x 320
+Transparency (bg_opa): 255
+Border Transparency (border_opa): 255
+Color Depth (LV_COLOR_DEPTH): 16
+
+------LVGL Object Rendering Information-------
+{
+  "source": "Pool",
+  "target": "LVGL",
+  "action": "Reading widget information",
+  "widget": {
+    "name": "Label",
+    "coords": {
+      "width": 150,
+      "height": 25,
+      "x": 0,
+      "y": 295
+    }
+  }
+  "widget": {
+    "name": "Graticule",
+    "coords": {
+      "width": 401,
+      "height": 267,
+      "x": 0,
+      "y": 0
+    }
+  }
+}
+
+CUSTOM WIDGET CLIPPING AREA: (0,0) -> (400,266)
+TIME SEGMENT: (0,0) -> (0,266)
+TIME SEGMENT: (40,0) -> (40,266)
+TIME SEGMENT: (80,0) -> (80,266)
+TIME SEGMENT: (120,0) -> (120,266)
+TIME SEGMENT: (160,0) -> (160,266)
+TIME SEGMENT: (200,0) -> (200,266)
+TIME SEGMENT: (240,0) -> (240,266)
+TIME SEGMENT: (280,0) -> (280,266)
+TIME SEGMENT: (320,0) -> (320,266)
+TIME SEGMENT: (360,0) -> (360,266)
+VOLTAGE SEGMENT: (0,0) -> (400,0)
+VOLTAGE SEGMENT: (0,33) -> (400,33)
+VOLTAGE SEGMENT: (0,66) -> (400,66)
+VOLTAGE SEGMENT: (0,99) -> (400,99)
+VOLTAGE SEGMENT: (0,132) -> (400,132)
+VOLTAGE SEGMENT: (0,165) -> (400,165)
+VOLTAGE SEGMENT: (0,198) -> (400,198)
+VOLTAGE SEGMENT: (0,231) -> (400,231
