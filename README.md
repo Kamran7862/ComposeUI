@@ -78,8 +78,6 @@ src/
 
 ---
 
----
-
 ## Basic Use of the System
 
 The following instructions are designed to help you quickly get started with ComposeUI. They assume you are working with the existing types implemented in the system: the `Graticules` custom object and the `Text Label`. These examples are intended for experimentation and to give you a feel for how the system works. If you plan to use custom widget types or types not already defined in `WidgetAttributes::Type`, you will need to extend the system by adding new definitions, instances, and rendering logic.
@@ -146,8 +144,6 @@ The following instructions are designed to help you quickly get started with Com
 ```
 
 </details>
-
----
 
 ---
 
@@ -234,8 +230,6 @@ The following instructions are designed to help you quickly get started with Com
 
 ---
 
----
-
 ## Dependencies
 
 - **LVGL** (v9.x) - Graphics library
@@ -245,8 +239,6 @@ The following instructions are designed to help you quickly get started with Com
 ### Hardware
 
 ComposeUI is designed to run on the Teensy 4.1 or any compatible Arduino board. Since it is built using standard C++ and Arduino libraries, it can be adapted to a wide range of hardware platforms that support these environments.
-
----
 
 ---
 
@@ -270,5 +262,3 @@ ComposeUI was created as a portfolio project to demonstrate my skills in C++ and
 This project was designed to address the pain points I encountered while working with LVGL, and I believe it offers a novel approach to simplifying UI development for embedded systems. I hope others find it useful and inspiring for their own projects.
 
 📄 [License](LICENSE.txt)
-
----
